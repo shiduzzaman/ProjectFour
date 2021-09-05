@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 20px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: rgb(48, 41, 40);
+
+}
+.header img{
+    width: 100px;
+   height: 50px;
+}
+table td a{
+    color: whitesmoke;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: bold;
+
+}
+table td a:hover{
+    background-color: tomato;
+    color: white;
+}
+.home{
+    background-image: url(colorlib/About\ Us\ img.webp);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    height: 500px;
+    
+    
+}
+
+.home td{
+  height: 200px;
+    font-size: 30px;
+    text-align: center;
+  
+    
+}
+.btn{
+    padding: 14px;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    color: tomato;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.btn:hover{
+    background-color: tomato;
+    color: black;
+}
+
+.auction-hd{
+    padding: 20px;
+    color: white;
+    background-color: rgb(48, 41, 40);
+    width: 30%;
+    text-align: center;
+}
+
+
+.showcase{
+    width: 100%;
+text-align: center;
+}
+.showcase img{
+    padding: 20px 0;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    background: transparent;
+}
+.showcase button{
+    width: 100px;
+    height: 40px;
+}
+.showcase button:hover{
+    background-color: tomato;
+    color: black;
+}
+.process-hd{
+    padding: 30px;
+    color: white;
+    background-color: rgb(48, 41, 40);
+    width: 30%;
+    text-align: center;
+}
+.process{
+    text-align: center;
+    width: 100%;
+}
+.process img{
+    width: 150px;
+
+
+}
+.about{
+    width: 100%;
+    padding-top: 30px;
+}
+.about img{
+    width: 500px;
+    height: 350px;
+    float: right;
+    padding-right: 20px;
+}
+.about-right img{
+    width: 50px;
+    height: 50px;
+   
+    float: left;
+}
+.about-right{
+    text-align: left;
+    
+}
+.about-right h1{
+    text-align: center;
+   font-size: 30px;
+   padding-bottom: 50px;
+}
+.about-right h3{
+    font-size: 18px;
+
+}
+.regiter-section{
+    padding-top: 50px ;
+    margin: 10px auto;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.footer-last{
+    color: rgb(20, 19, 17);
+    text-align: center;
+   
+}
+.main-footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(32, 32, 34);
+    text-align: left;
+    color: cornsilk;
+
+}
+
+.social-icon img{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.footer-btn{
+  
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: darksalmon;
+    color: rgb(65, 54, 46);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.footer-btn:hover{
+    background-color: tomato;
+    color: black;
+}
+.main-footer td{
+    padding: 10px;
+    
+    
+}
+.main-footer td h3{
+    font-size:40px;
+    color: rgb(255, 180, 153);
+}
+.main-footer td ul li{
+color: #999;
+padding: 5px;
+
+}
+
+
+/* ------Contact page------ */
+
+.contact{
+    width: 100%;
+    padding: 30px ;
+    margin: 10px;
+}
+iframe{
+    width: 100%;
+    margin: auto;
+    padding-top: 15px;
+}
+    
+.contact-right{
+   padding-left: 30px;
+    text-align: left;
+    
+}
+.contact-right h1{
+     text-align: center;
+     font-size: 30px;
+     padding-bottom: 20px;
+}
+.contact-right h3{
+    font-size: 18px;
+    
+
+}
+
+/* <!-- Blogs section --> */
+.blog{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+.blog td{
+    width: 30%;
+    padding-bottom: 15px;
+    
+}
+.blog td img{
+    width: 250px;
+}
+
+/* Pagination links */
+.pagination a {
+    
+    font-weight: bold;
+    color: rgb(32, 16, 16);
+    padding: 10px 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
