@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+   
 }
 .header{
     padding-top: 20px;
@@ -27,18 +29,23 @@ table td a:hover{
     color: white;
 }
 .home{
-    background-image: url(colorlib/About\ Us\ img.webp);
     width: 100%;
+    background-image: url(colorlib/bgimage.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     justify-content: center;
-    height: 500px;
+    height: 450px;
+  
     
     
 }
-
+.home p{
+    color: cornsilk;
+}
 .home td{
-  height: 200px;
+    color: cornsilk;
+     height: 200px;
     font-size: 30px;
     text-align: center;
   
@@ -52,6 +59,7 @@ table td a:hover{
     color: tomato;
     cursor: pointer;
     border-radius: 10px;
+    font-weight: bold;
 
 }
 .btn:hover{
@@ -60,17 +68,23 @@ table td a:hover{
 }
 
 .auction-hd{
+    border-radius: 80px;
     padding: 20px;
-    color: white;
-    background-color: rgb(48, 41, 40);
-    width: 30%;
+    background-color: rgb(43, 24, 22);
+    width: 40%;
     text-align: center;
+    color: cornsilk;
 }
 
 
 .showcase{
     width: 100%;
 text-align: center;
+
+}
+.showcase p{
+    margin: 10px;
+    color: #000;
 }
 .showcase img{
     padding: 20px 0;
@@ -79,28 +93,32 @@ text-align: center;
     height: 300px;
     background: transparent;
 }
-.showcase button{
-    width: 100px;
-    height: 40px;
+.btn{
+    width: 130px;
+    height: 50px;
 }
-.showcase button:hover{
-    background-color: tomato;
-    color: black;
-}
+
 .process-hd{
-    padding: 30px;
-    color: white;
-    background-color: rgb(48, 41, 40);
-    width: 30%;
+    border-radius: 80px;
+    padding: 20px;
+    background-color: rgb(43, 24, 22);
+    width: 40%;
     text-align: center;
+    color: cornsilk;
 }
 .process{
+    padding: 20px;
+    margin: 30px;
     text-align: center;
-    width: 100%;
+    
+    
+}
+.process td{
+    border-radius: 30px;
+    margin-right: 15px;
 }
 .process img{
     width: 150px;
-
 
 }
 .about{
@@ -113,24 +131,33 @@ text-align: center;
     float: right;
     padding-right: 20px;
 }
+.about-left {
+    width: 50%;
+}
 .about-right img{
-    width: 50px;
-    height: 50px;
-   
+    width: 80px;
+    height: 80px;
     float: left;
 }
 .about-right{
-    text-align: left;
+    padding: 30px;
+    margin: 30px; 
     
 }
 .about-right h1{
     text-align: center;
    font-size: 30px;
    padding-bottom: 50px;
+   
 }
 .about-right h3{
-    font-size: 18px;
+    font-size: 20px;
+    padding: 25px;
 
+}
+.about-right p{
+    font-size: 16px;
+    color: #000;
 }
 .regiter-section{
     padding-top: 50px ;
@@ -147,17 +174,17 @@ text-align: center;
 .main-footer{
     width: 100%;
     height: 250px;
-    background-color: rgb(32, 32, 34);
+    background-color: rgb(48, 41, 40);
     text-align: left;
     color: cornsilk;
 
 }
 
 .social-icon img{
-    padding: 10px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
+    
+    width: 20px;
+    height: 20px;
+    text-align: justify;
 }
 .footer-btn{
   
@@ -187,8 +214,15 @@ color: #999;
 padding: 5px;
 
 }
+.footer-last p{
+    background: rgb(17, 14, 14);
+    color: tomato;
+    font-size: 18px;
+}
 
-
+.footer-last p:hover{
+   
+}
 /* ------Contact page------ */
 
 .contact{
@@ -214,8 +248,11 @@ iframe{
 }
 .contact-right h3{
     font-size: 18px;
-    
 
+}
+.contact-right h1,h3,p{
+    color: #000;
+    padding: 5px;
 }
 
 /* <!-- Blogs section --> */
@@ -225,14 +262,20 @@ iframe{
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
+ 
 }
 .blog td{
+   
     width: 30%;
     padding-bottom: 15px;
     
 }
 .blog td img{
     width: 250px;
+}
+.blog p{
+    color: #000;
+    margin: 20px;
 }
 
 /* Pagination links */
@@ -245,4 +288,61 @@ iframe{
     text-decoration: none;
     transition: background-color .3s;
   }
-  
+
+   .box{
+    width: 700px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.box h2{
+    color: rgb(243, 135, 93);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type="text"],.box input[type="email"],.box input[type="number"], .box input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(243, 135, 93);
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: rgb(22, 19, 6);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type="text"]:focus,input[type="email"]:focus,.box input[type="number"]:focus,.box input[type="password"]:focus{
+    width: 380px;
+    border-color: rgb(48, 47, 71);
+}
+.box input[type="submit"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(65, 54, 46);
+    padding: 14px 10px;
+    width: 80px;
+    outline: none;
+    color: rgb(248, 142, 129);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+.box input[type="submit"]:hover{
+    background-color: rgb(248, 142, 129);
+    
+}
+.box input[type="submit"]:focus{
+    width: 100px;
+    border-color: rgb(65, 54, 46);
+}
